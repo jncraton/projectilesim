@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# All tests are for a projectile moving at 10 m/s
+
+echo 15 degree launch angle
+./projectile 9.659 2.588
+echo 30 degree launch angle
+./projectile 8.660 5.000
+echo 45 degree launch angle
+./projectile 7.07 7.07
+echo 60 degree launch angle
+./projectile 5.000 8.660
+echo 75 degree launch angle
+./projectile 2.588 9.659 
+echo 90 degree launch angle
+./projectile 0.000 10.000 
+ 
