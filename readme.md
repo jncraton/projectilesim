@@ -11,3 +11,5 @@ This project provides a basic simulator for projectile motion. It takes as input
 > ./projectile 9.659 2.588
 Traveled 5.0 meters in 0.52 seconds
 ```
+
+This assumes an ideal model with no air resistance or other forces. While these values can be calculated directly, we will derive them via simulation for educational purposes.
